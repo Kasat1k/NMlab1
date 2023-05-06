@@ -31,16 +31,11 @@ namespace NMlab1
 
         void NewtonMethod()
         {
-            double a = -3;
+            double a = -2.75;
             double b = -2;
             double x = a;
             double prx;
-            //double min = Math.Abs(Dfun(a));
-           // double max = Math.Abs(SDfun(b));
-            //double q = max * Math.Abs(a - b) / 2 / min;
-            //double an = Math.Log((Math.Log(3.0) / eps) / Math.Log(1 / q),2)+1+1;
-            //Console.WriteLine(q);
-           //Console.WriteLine(an);
+           
             int i = 1;
             Console.WriteLine($" Iteration 1 \t x = {x:F10}\t x(k)-x(k-1) ={x - 0:F10} \t f(x) = {func(x):F10} ");
             do
